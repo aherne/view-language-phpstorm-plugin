@@ -1,12 +1,7 @@
 # View Language PHPStorm Plugin
 
-[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]
-[![Twitter Follow](https://img.shields.io/badge/follow-%40JBPlatform-1DA1F2?logo=twitter)](https://twitter.com/JBPlatform)
-[![Build](https://github.com/JetBrains/intellij-platform-plugin-template/workflows/Build/badge.svg)][gh:build]
-[![Slack](https://img.shields.io/badge/Slack-%23intellij--platform-blue?style=flat-square&logo=Slack)](https://plugins.jetbrains.com/slack)
-
-![IntelliJ Platform Plugin Template][file:intellij-platform-plugin-template-dark]
-![IntelliJ Platform Plugin Template][file:intellij-platform-plugin-template-light]
+[![View Language API]([https://jb.gg/badges/official.svg](https://github.com/aherne/php-view-language-api))][jb:github]
+[![Lucinda Framework](https://www.lucinda-framework.com)](https://twitter.com/JBPlatform)
 
 > [!NOTE]
 > Click the <kbd>Use this template</kbd> button and clone it in IntelliJ IDEA.
