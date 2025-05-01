@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>com.lucianpopescu.viewlanguage</id>
+    <name>ViewLanguage Taglib Resolver</name>
+    <version>1.0.0</version>
+    <vendor>Lucian Popescu</vendor>
+
+    <description>
+        Enables Ctrl+Click navigation for custom view tags like &lt;popup:delete/&gt; inside PhpStorm.
+    </description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+	<extensions defaultExtensionNs="com.intellij">
+		<psi.referenceContributor implementation="com.lucianpopescu.viewlanguage.TaglibReferenceContributor"/>
+	    <completion.contributor
+	            language="XML"
+	            implementationClass="com.lucianpopescu.viewlanguage.TaglibTagCompletionContributor"/>
+	    <completion.contributor
+	            language="XML"
+	            implementationClass="com.lucianpopescu.viewlanguage.ImportFileCompletionContributor"/>
+	</extensions>
+</idea-plugin>
