@@ -11,8 +11,12 @@ What remains to be done:
 - support for system tags
 
 Installation steps:
-
-
+1. clone repository, navigate to created folder in terminal and run: ```./gradlew clean buildPlugin```
+2. this will create a **build/distributions/IntelliJ Platform Plugin Template-1.0.0.zip** file
+3. upgrade to the latest PHPStorm version
+4. open PHPStorm, go to Settings > Plugins and click on the square wheel sign on top, choosing **Install plugin from disk**
+5. browse for zip file created in step 2 and hit **Open** (this will install plugin on your phpstorm)
+6. restart PHPStorm completely
 
 > [!NOTE]
 > Plugin is still in progress and may have bugs (this is an alpha version)
